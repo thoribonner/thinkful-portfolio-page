@@ -1,0 +1,108 @@
+/* ----- all content -----*/
+* {
+    box-sizing: border-box;
+}
+html {
+    /* set full background color */
+     background: #565d6f;
+}
+header, main, footer {
+    /* set background color & rounded corners with margins and padding to visually separate these parts*/
+    background: #a9aa58;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    color: #353a47;
+    font-size: 27px;
+}
+hr {
+    /* style horizontal rulers */
+    height: 5px;
+    background-color: #a56161;
+    border: 4px solid #a56161;
+    border-radius: 5px;
+}
+/* ----- header content -----*/
+header {
+    text-align: center;
+}
+.portrait {
+    width: 269px;
+    border-radius: 50%;
+    transition: transform .2s;
+    margin-top: 50px;
+}
+.portrait:hover {
+    /* pic expands to 1.5 of original size when the mouse hovers over it */
+    transform: scale(1.5);
+}
+header h1 {
+    /* margin negative to bring this line of text closer to the one below */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 73px;
+    margin-bottom: -50px; 
+}
+header h3 {
+    font-size: 31pxx;
+    font-variant: small-caps;
+}
+/* ----- main content -----*/
+main {
+    text-align: center;
+}
+h4 {
+    text-decoration: underline;
+    text-decoration-color: #a56161;
+}
+main p {
+    text-align: justify;
+    margin: auto;
+    font-size: 24px
+}
+.main-line {
+    margin-bottom: -47px;
+}
+h6 {
+    font-variant: small-caps;
+}
+ol, ul {
+    margin-top: -20px;
+}
+li {
+    list-style: none;
+}
+em {
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+    color: #a56161;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 0px;
+    background: #565d6f;
+    border-radius: 10px;
+    padding: 17px;
+}
+a:hover {
+    /* flop colors while hovering mouse over a link*/
+    color: #565d6f;
+    background: #a56161;
+}
+ul li {
+    margin: 33px 0;
+}
+ol li {
+    font-variant: small-caps;
+}
+.fab {
+    font-size: 35px;
+}
+/* ----- footer content -----*/
+footer {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-variant: small-caps;
+}
